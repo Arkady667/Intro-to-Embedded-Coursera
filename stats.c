@@ -73,7 +73,7 @@ unsigned char find_median(unsigned char *data, unsigned int array_size){
 
 	if (array_size % 2 == 0){
 		value = (data[array_size/2]-1 + data[array_size/2])/2;
-	}
+	} 
 	else {
 		value = data[array_size/2];
 	}
